@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="p2-blur" id="div-container" style="height: 635px;">
+        <div id="div1"><h1 id="heading">Tasks<span style="color: #00A5EC;">List</span></h1></div>
+        <div align="center" style="margin-top: 20px;" >
+            <div id="p3b"><i class="fa-solid fa-circle-arrow-left"></i> &nbsp;<span style="font-size: 20px;">Back</span></div>
+           <div id="p3p" style="color: #00A5EC; font-size:30px;"><i class="fa-solid fa-circle-plus"></i> <span style="color: black;font-size:20px;">Add New Task</span></div>
+        </div>
+            <div class="cards card1">
+                <p class="p" align="center">Trip to Paris</p><hr color="#EDEDED">
+                <form class="form" >
+                    <input type="checkbox" id="c1" class="cs" disabled checked>
+                    <label for="c1" style="color:#C2C2C2;"> <s>Visit Church</s></label><br><br>
+                    <input type="checkbox" id="c2" class="cs">
+                    <label for="c2"> Shopping</label>
+                </form>
+            </div>
+    </div>
+    <div class="p2-popup">
+        <div class="p2p-text">Add New Task <span id="p2-xmark"><i class="fa-solid fa-square-xmark"></i></span></div><hr color="#EDEDED">
+        <input type="text" placeholder="Visit Famous places" id="p2t" disabled>
+        <button id="button">+ Add Task</button>
+    </div>
+</body>
+</html>
